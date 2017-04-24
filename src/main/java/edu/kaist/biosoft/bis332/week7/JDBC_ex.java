@@ -26,7 +26,7 @@ public class JDBC_ex {
         String PORT="5432";
         String DB_NAME="u"; // Student Number
         String ID="u"; //Student Number
-        String Passwd="";  //Password
+        String Passwd="bisl";  //Password
 
         try{
             Class.forName("org.postgresql.Driver");

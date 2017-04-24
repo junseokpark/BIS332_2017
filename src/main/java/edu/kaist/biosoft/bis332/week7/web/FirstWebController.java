@@ -35,4 +35,12 @@ public class FirstWebController {
         return "JSP_ex/IncludeTest";
     }
 
+    /**
+     *  Week9 codes for directing to GeneJDBCExample.jsp
+     */
+    @RequestMapping("/gene")
+    public String geneJDBCExample() {
+        return "JDBC_ex/GeneJDBCExample";
+    }
+
 }
